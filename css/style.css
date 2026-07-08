@@ -352,8 +352,8 @@ button { font-family: inherit; cursor: pointer; }
   gap: 24px;
 }
 .route-city { text-align: center; }
-.route-city .flag { display: inline-block; width: 72px; }
-.route-city .flag svg { width: 100%; height: auto; display: block; }
+.route-city .flag { display: inline-block; width: 64px; }
+.route-city .flag svg, .route-city .flag img { width: 100%; height: auto; display: block; }
 .route-city h3 { margin-top: 12px; font-size: 20px; color: var(--color-navy-950); }
 .route-city p { color: var(--color-ink-soft); font-size: 14px; margin-top: 6px; }
 .route-mid { text-align: center; color: var(--color-gold-700); }
