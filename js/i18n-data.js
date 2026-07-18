@@ -1,18 +1,20 @@
 window.I18N_DICT = {
   ko: {
     brand: { sub: "다은인터내셔널" },
-    nav: { services: "서비스", process: "진출 프로세스", why: "DN INTL.", partners: "파트너 네트워크", contact: "문의하기", cta: "상담 신청" },
+    nav: { services: "진출 서비스", sourcing: "소싱 서비스", process: "진출 프로세스", why: "DN INTL.", partners: "파트너 네트워크", contact: "문의하기", cta: "상담 신청" },
     hero: {
       badge: "한중 무역 & 중국시장 진출 공식 파트너",
-      title: "한국 브랜드의 <span class=\"accent\">가능성</span>을,<br>중국 시장에서 현실로 만듭니다",
-      lede: "DN INTL.(다은인터내셔널)은 중국 주요 도시의 검증된 현지 파트너 네트워크를 기반으로 시장조사부터 유통망 입점, 라이브커머스, MOU 체결까지 중국 진출의 전 과정을 원스톱으로 지원합니다.",
+      title: "한국과 중국을 잇는<br><span class=\"accent\">가장 확실한</span> 파트너",
+      lede: "DN INTL.(다은인터내셔널)은 한국 브랜드의 중국 시장 진출부터 중국 제품 소싱까지, 한중 무역의 전 과정을 지원합니다.",
       cta1: "중국 진출 상담 신청", cta2: "진출 프로세스 보기",
       stat1: "단계별 진출 로드맵", stat2: "인플루언서 네트워크 팔로워", stat3: "주요 유통 플랫폼 커버리지",
-      visual: { kr: "대한민국", cn: "중국" }
+      visual: { kr: "대한민국", cn: "중국" },
+      choice1: { title: "중국 진출 서비스", desc: "한국 브랜드의 중국 시장 진출을 지원합니다", cta: "진출 서비스 보기 →" },
+      choice2: { title: "중국 제품 소싱 서비스", desc: "믿을 수 있는 중국 제품·공급처를 찾아드립니다", cta: "소싱 서비스 보기 →" }
     },
     logostrip: { label: "주요 진출 채널" },
     services: {
-      eyebrow: "Our Services", title: "중국 진출을 위한 6가지 핵심 서비스",
+      eyebrow: "China Market Entry", title: "한국 브랜드의 중국 진출을 위한 6가지 서비스",
       lede: "시장조사부터 실판매, 사후관리까지 — 한 곳에서 끝나는 중국시장 진출 솔루션입니다.",
       s1: { title: "비즈니스 매칭 & MOU 체결 지원", desc: "중국 현지 파트너·유통사·바이어와의 매칭부터 MOU 체결까지 계약 전 과정을 지원합니다.", tag1: "파트너 매칭", tag2: "계약 지원" },
       s2: { title: "온라인 유통망 입점", desc: "티몰·징동·핀둬둬 등 이커머스와 위챗채널·도우인·샤오홍슈 등 콘텐츠 커머스 입점을 지원합니다." },
@@ -20,6 +22,16 @@ window.I18N_DICT = {
       s4: { title: "오프라인 유통 입점", desc: "코스트코·샘스클럽 등 회원제 대형 유통망 입점 가능성 검토 및 입점 절차를 지원합니다." },
       s5: { title: "투자 매칭", desc: "성장 잠재력이 높은 한국 중소·스타트업을 발굴해 중국 투자자·파트너와 연결합니다.", tag1: "투자 유치", tag2: "파트너십" },
       s6: { title: "시장조사 & 현지화 컨설팅", desc: "경쟁사 분석, 가격 전략, 인허가·통관 규제 검토 등 현지화에 필요한 리서치를 제공합니다.", tag1: "시장조사", tag2: "규제 대응" }
+    },
+    sourcing: {
+      eyebrow: "China Sourcing", title: "믿을 수 있는 중국 제품 소싱을 위한 6가지 서비스",
+      lede: "제품 발굴부터 품질검수, 통관·물류까지 — 안전한 중국 소싱을 처음부터 끝까지 지원합니다.",
+      s1: { title: "제품·공급업체 발굴", desc: "카테고리별 신뢰 가능한 제조사·도매업체를 매칭해 드립니다.", tag1: "공급처 발굴", tag2: "카테고리 매칭" },
+      s2: { title: "공장 실사 & 품질 검수(QC)", desc: "생산 현장을 직접 확인하고 출고 전 품질을 검사합니다.", tag1: "공장 실사", tag2: "품질 검수" },
+      s3: { title: "샘플 요청 & 가격·MOQ 협상", desc: "샘플을 확보하고 단가·최소주문수량(MOQ)을 협상합니다.", tag1: "샘플 확보", tag2: "가격 협상" },
+      s4: { title: "수입 통관 & 국제 물류", desc: "관세·통관 서류 처리부터 해상·항공 운송까지 대행합니다.", tag1: "통관 대행", tag2: "국제 물류" },
+      s5: { title: "계약·결제 대행", desc: "공급계약서를 검토하고 안전한 대금 결제를 지원합니다.", tag1: "계약 검토", tag2: "안전 결제" },
+      s6: { title: "OEM/ODM 생산 지원", desc: "자체 브랜드 상품의 위탁생산(OEM/ODM)을 연결합니다.", tag1: "OEM/ODM", tag2: "생산 연결" }
     },
     process: {
       eyebrow: "Roadmap", title: "8단계 중국 진출 로드맵",
@@ -76,18 +88,20 @@ window.I18N_DICT = {
   },
   en: {
     brand: { sub: "Daeun International" },
-    nav: { services: "Services", process: "Roadmap", why: "DN INTL.", partners: "Network", contact: "Contact", cta: "Get in touch" },
+    nav: { services: "Market Entry", sourcing: "Sourcing", process: "Roadmap", why: "DN INTL.", partners: "Network", contact: "Contact", cta: "Get in touch" },
     hero: {
       badge: "Official Korea–China Trade & Market-Entry Partner",
-      title: "Turning Korean brands' <span class=\"accent\">potential</span><br>into reality in the China market",
-      lede: "DN INTL. partners with a vetted local network across major Chinese cities to run the full China market-entry journey — market research, distribution onboarding, livestream commerce, and MOU execution — as one seamless service.",
+      title: "The most reliable bridge<br>between <span class=\"accent\">Korea</span> and China",
+      lede: "DN INTL. supports the full journey of Korea–China trade — from helping Korean brands enter the Chinese market to sourcing Chinese products for Korean businesses.",
       cta1: "Book a consultation", cta2: "See our roadmap",
       stat1: "step market-entry roadmap", stat2: "influencer network followers", stat3: "major distribution platforms",
-      visual: { kr: "Republic of Korea", cn: "China" }
+      visual: { kr: "Republic of Korea", cn: "China" },
+      choice1: { title: "China Market Entry", desc: "Helping Korean brands enter the Chinese market.", cta: "See entry services →" },
+      choice2: { title: "China Product Sourcing", desc: "Finding trustworthy Chinese products and suppliers for you.", cta: "See sourcing services →" }
     },
     logostrip: { label: "Key channels we operate on" },
     services: {
-      eyebrow: "Our Services", title: "Six core services for your China entry",
+      eyebrow: "China Market Entry", title: "Six services for your China market entry",
       lede: "From market research to live sales and after-care — one partner, start to finish.",
       s1: { title: "Business Matching & MOU Support", desc: "We connect you with vetted local partners, distributors and buyers across China, and manage the whole process through MOU signing.", tag1: "Partner matching", tag2: "Contract support" },
       s2: { title: "Online Distribution Onboarding", desc: "Onboarding across Tmall, JD.com and Pinduoduo, plus content commerce on WeChat Channels, Douyin and Xiaohongshu." },
@@ -95,6 +109,16 @@ window.I18N_DICT = {
       s4: { title: "Offline Retail Entry", desc: "Feasibility review and onboarding support for membership retail chains such as Costco and Sam's Club." },
       s5: { title: "Investment Matching", desc: "We identify high-potential Korean SMEs and connect them with Chinese investors and partners.", tag1: "Fundraising", tag2: "Partnership" },
       s6: { title: "Market Research & Localization", desc: "Competitor analysis, pricing strategy, and regulatory/compliance review to prepare you for the local market.", tag1: "Market research", tag2: "Compliance" }
+    },
+    sourcing: {
+      eyebrow: "China Sourcing", title: "Six services for trustworthy China sourcing",
+      lede: "From product discovery to quality inspection and customs/logistics — end-to-end support for safe China sourcing.",
+      s1: { title: "Product & Supplier Sourcing", desc: "We match you with trustworthy manufacturers and wholesalers by category.", tag1: "Supplier sourcing", tag2: "Category matching" },
+      s2: { title: "Factory Audit & QC", desc: "We verify production sites in person and inspect quality before shipment.", tag1: "Factory audit", tag2: "Quality inspection" },
+      s3: { title: "Samples & Price/MOQ Negotiation", desc: "We secure samples and negotiate unit price and minimum order quantity.", tag1: "Sample sourcing", tag2: "Price negotiation" },
+      s4: { title: "Import Customs & Logistics", desc: "We handle customs clearance and sea/air freight from end to end.", tag1: "Customs clearance", tag2: "International logistics" },
+      s5: { title: "Contract & Payment Support", desc: "We review supply contracts and support secure payment.", tag1: "Contract review", tag2: "Secure payment" },
+      s6: { title: "OEM/ODM Production Support", desc: "We connect you with private-label OEM/ODM manufacturing.", tag1: "OEM/ODM", tag2: "Production sourcing" }
     },
     process: {
       eyebrow: "Roadmap", title: "An 8-step China market-entry roadmap",
@@ -151,18 +175,20 @@ window.I18N_DICT = {
   },
   zh: {
     brand: { sub: "多恩国际" },
-    nav: { services: "服务项目", process: "进入流程", why: "DN INTL.", partners: "合作网络", contact: "联系我们", cta: "咨询申请" },
+    nav: { services: "进入服务", sourcing: "采购服务", process: "进入流程", why: "DN INTL.", partners: "合作网络", contact: "联系我们", cta: "咨询申请" },
     hero: {
       badge: "韩中贸易 & 中国市场进入官方合作伙伴",
-      title: "把韩国品牌的<span class=\"accent\">潜力</span>，<br>变成中国市场的现实",
-      lede: "DN INTL.（多恩国际）与中国主要城市经过验证的本地合作伙伴网络携手，提供从市场调研、渠道入驻、直播电商到MOU签约的一站式中国市场进入服务。",
+      title: "连接韩中两国<br><span class=\"accent\">最值得信赖</span>的伙伴",
+      lede: "DN INTL.（多恩国际）支持韩中贸易的全过程——从帮助韩国品牌进入中国市场，到为韩国企业采购中国产品。",
       cta1: "预约进入咨询", cta2: "查看进入流程",
       stat1: "步进入路线图", stat2: "网红网络粉丝数", stat3: "主要销售渠道覆盖",
-      visual: { kr: "韩国", cn: "中国" }
+      visual: { kr: "韩国", cn: "中国" },
+      choice1: { title: "中国市场进入服务", desc: "助力韩国品牌进入中国市场。", cta: "查看进入服务 →" },
+      choice2: { title: "中国产品采购服务", desc: "为您寻找值得信赖的中国产品与供应商。", cta: "查看采购服务 →" }
     },
     logostrip: { label: "主要入驻渠道" },
     services: {
-      eyebrow: "核心服务", title: "中国市场进入六大核心服务",
+      eyebrow: "中国市场进入", title: "助力韩国品牌进入中国市场的六大服务",
       lede: "从市场调研到实际销售、售后管理 — 一站式完成中国市场进入。",
       s1: { title: "商务对接 & MOU 签约支持", desc: "从对接中国本地合作伙伴、渠道商、买家，到MOU签约，全流程提供支持。", tag1: "伙伴对接", tag2: "签约支持" },
       s2: { title: "线上渠道入驻", desc: "支持天猫、京东、拼多多等电商平台，以及微信视频号、抖音、小红书等内容电商入驻。" },
@@ -170,6 +196,16 @@ window.I18N_DICT = {
       s4: { title: "线下渠道入驻", desc: "评估并支持好市多（Costco）、山姆会员店等大型会员制渠道的入驻。" },
       s5: { title: "投资对接", desc: "发掘具有增长潜力的韩国中小企业，与中国投资方、合作伙伴进行对接。", tag1: "投资对接", tag2: "合作伙伴" },
       s6: { title: "市场调研 & 本地化咨询", desc: "提供竞品分析、价格策略、认证通关等法规审查在内的本地化调研服务。", tag1: "市场调研", tag2: "法规应对" }
+    },
+    sourcing: {
+      eyebrow: "中国采购", title: "值得信赖的中国采购六大服务",
+      lede: "从产品开发到质量检验、通关物流 — 全程支持安全的中国采购。",
+      s1: { title: "产品与供应商开发", desc: "按品类为您匹配值得信赖的制造商与批发商。", tag1: "供应商开发", tag2: "品类匹配" },
+      s2: { title: "工厂实地考察与质检", desc: "实地确认生产现场，出货前进行质量检验。", tag1: "工厂考察", tag2: "质量检验" },
+      s3: { title: "样品申请与价格/MOQ谈判", desc: "获取样品并协商单价与最小起订量（MOQ）。", tag1: "样品获取", tag2: "价格谈判" },
+      s4: { title: "进口通关与国际物流", desc: "代办关税通关文件及海运/空运运输。", tag1: "通关代办", tag2: "国际物流" },
+      s5: { title: "合同与付款代理", desc: "审核供应合同，支持安全付款。", tag1: "合同审核", tag2: "安全付款" },
+      s6: { title: "OEM/ODM代工支持", desc: "为您对接自有品牌代工生产（OEM/ODM）。", tag1: "OEM/ODM", tag2: "代工对接" }
     },
     process: {
       eyebrow: "进入流程", title: "中国市场进入 8 步路线图",

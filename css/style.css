@@ -222,14 +222,23 @@ button { font-family: inherit; cursor: pointer; }
 .hero .lede { margin-top: 22px; font-size: 18px; color: rgba(255,255,255,0.86); max-width: 540px; }
 .hero-cta { margin-top: 36px; display: flex; gap: 14px; flex-wrap: wrap; }
 
-.hero-stats {
-  margin-top: 56px;
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: 36px;
+.hero-choice { margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 18px; max-width: 620px; }
+.choice-card {
+  display: block;
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.28);
+  border-radius: var(--radius-lg); padding: 26px 24px;
+  backdrop-filter: blur(8px); transition: var(--transition);
 }
-.hero-stats .stat b { display: block; font-size: 28px; color: #fff; }
-.hero-stats .stat span { font-size: 13px; color: rgba(255,255,255,0.75); font-weight: 600; }
+.choice-card:hover { background: rgba(255,255,255,0.16); border-color: rgba(255,255,255,0.45); transform: translateY(-3px); }
+.choice-card-icon { width: 38px; height: 38px; color: var(--color-amber-400); margin-bottom: 16px; }
+.choice-card-icon svg { width: 100%; height: 100%; }
+.choice-card h3 { font-size: 17px; color: #fff; margin-bottom: 8px; }
+.choice-card p { font-size: 13px; line-height: 1.5; color: rgba(255,255,255,0.75); }
+.choice-card-arrow { display: inline-block; margin-top: 16px; font-size: 13px; font-weight: 700; color: var(--color-amber-400); }
+
+.section-stats { margin-top: 32px; display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; }
+.section-stats .stat b { display: block; font-size: 26px; color: var(--color-navy-950); }
+.section-stats .stat span { font-size: 13px; color: var(--color-ink-soft); font-weight: 600; }
 
 .logo-strip {
   border-top: 1px solid var(--color-line);
@@ -467,7 +476,8 @@ button { font-family: inherit; cursor: pointer; }
   .nav-toggle { display: block; }
   .section { padding: 64px 0; }
   .hero { padding: 140px 0 70px; }
-  .hero-stats { grid-template-columns: 1fr 1fr; }
+  .hero-choice { grid-template-columns: 1fr; }
+  .section-stats { gap: 24px 32px; }
   .services-grid, .process-list, .testi-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
   .cta-banner { padding: 36px; }
